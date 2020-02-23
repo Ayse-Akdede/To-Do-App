@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "todoapp-93a17"
+  },
+  "targets": {
+    "todoapp-93a17": {
+      "hosting": {
+        "todoapp": [
+          "todoapp-93a17"
+        ]
+      }
+    }
+  }
+}
