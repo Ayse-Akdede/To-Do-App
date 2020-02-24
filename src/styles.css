@@ -6,7 +6,7 @@
 }
 
 div>.input-group-addon {
-  background-color: grey;
+  background-color: rgb(214, 214, 214);
   border-radius: 0 0.3rem 0.3rem 0;
   width: 4rem;
   display: flex;
