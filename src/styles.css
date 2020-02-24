@@ -4,3 +4,12 @@
 .hover-cursor {
   cursor: pointer;
 }
+
+div>.input-group-addon {
+  background-color: grey;
+  border-radius: 0 0.3rem 0.3rem 0;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
