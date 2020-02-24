@@ -5,6 +5,10 @@
   cursor: pointer;
 }
 
+.hover-cursor>.fa-trash-o:hover {
+  transform: scale(1.5);
+}
+
 div>.input-group-addon {
   background-color: rgb(214, 214, 214);
   border-radius: 0 0.3rem 0.3rem 0;
@@ -12,4 +16,12 @@ div>.input-group-addon {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+div>.input-group-addon:hover {
+  filter: brightness(90%);
+}
+
+div>.input-group-addon>.fa-plus-circle:hover {
+  filter: brightness(99%);
 }
