@@ -1,27 +1,50 @@
 # Todoapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+To Do App with Angular 9 and Firebase database.
 
-## Development server
+Here is my [demo link](https://angular-firebase-todoapp.netlify.com/).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Open a local server
 
-## Code scaffolding
+- To open a local you need to go to your project's directory.
+- Open a terminal and run `ng serve --open`
+- Now you can navigate to `http://localhost:4200/`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+> The app will automatically reload if you change any of the source files.
 
-## Build
+## Update of the app
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- First step is modify and update everything. (css / html / ts)
+- Make sure to save all files.
+- Delete the `/dist` file inside your directory.
+- Go to the project's directory and open terminal.
+- Run `ng build --prod` to build the project.
+- After built is done you can `add` , `commit`and `push`.
 
-## Running unit tests
+> If there is an error when `ng build --prod` then you need to update everything.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Update if error on 'serve' or 'build'
 
-## Running end-to-end tests
+- Updating angular and the CLI using:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```sh
+ng update @angular/cli @angular/core
+```
 
-## Further help
+- Install bootstrap again with npm
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```sh
+npm install bootstrap
+```
+
+- Install ng-bootstrap
+
+```sh
+npm install --save @ng-bootstrap/ng-bootstrap
+```
+
+- Install Localize
+
+```sh
+ng add @angular/localize
+```
